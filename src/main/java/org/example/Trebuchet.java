@@ -11,7 +11,7 @@ public class Trebuchet {
 
     public static String[] digits = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
-    public static String solveTrebuchtPart1(String filePath) {
+    public static String solveTrebucht(String filePath) {
         try {
             List<String> lines = Files.readAllLines(Paths.get(filePath));
 
